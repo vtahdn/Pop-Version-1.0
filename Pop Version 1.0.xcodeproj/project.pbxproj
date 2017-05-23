@@ -12,6 +12,13 @@
 		DE0B12A61ED1ED3C0055E943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0B12A41ED1ED3C0055E943 /* Main.storyboard */; };
 		DE0B12A81ED1ED3C0055E943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0B12A71ED1ED3C0055E943 /* Assets.xcassets */; };
 		DE0B12AB1ED1ED3C0055E943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0B12A91ED1ED3C0055E943 /* LaunchScreen.storyboard */; };
+		DE0B12B31ED1ED4D0055E943 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0B12B21ED1ED4D0055E943 /* Login.swift */; };
+		DEFF660F1ED3CAEB0064BA49 /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFF660E1ED3CAEB0064BA49 /* zing-mp3.jpg */; };
+		DEFF66111ED3CDBB0064BA49 /* Polygon-Apple-iPhone-7-Plus-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFF66101ED3CDBB0064BA49 /* Polygon-Apple-iPhone-7-Plus-Background.jpg */; };
+		DEFF66131ED3CFC70064BA49 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF66121ED3CFC70064BA49 /* Math.swift */; };
+		DEFF66171ED3D1EB0064BA49 /* blackboard.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFF66141ED3D1EB0064BA49 /* blackboard.png */; };
+		DEFF66181ED3D1EB0064BA49 /* note.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFF66151ED3D1EB0064BA49 /* note.jpg */; };
+		DEFF66191ED3D1EB0064BA49 /* 45614141-iphone-7-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEFF66161ED3D1EB0064BA49 /* 45614141-iphone-7-wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		DE0B12A71ED1ED3C0055E943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0B12AA1ED1ED3C0055E943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE0B12AC1ED1ED3C0055E943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0B12B21ED1ED4D0055E943 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		DEFF660E1ED3CAEB0064BA49 /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
+		DEFF66101ED3CDBB0064BA49 /* Polygon-Apple-iPhone-7-Plus-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Polygon-Apple-iPhone-7-Plus-Background.jpg"; sourceTree = "<group>"; };
+		DEFF66121ED3CFC70064BA49 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		DEFF66141ED3D1EB0064BA49 /* blackboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackboard.png; sourceTree = "<group>"; };
+		DEFF66151ED3D1EB0064BA49 /* note.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = note.jpg; sourceTree = "<group>"; };
+		DEFF66161ED3D1EB0064BA49 /* 45614141-iphone-7-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "45614141-iphone-7-wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +70,27 @@
 			children = (
 				DE0B12A01ED1ED3C0055E943 /* AppDelegate.swift */,
 				DE0B12A21ED1ED3C0055E943 /* ViewController.swift */,
+				DE0B12B21ED1ED4D0055E943 /* Login.swift */,
+				DEFF66121ED3CFC70064BA49 /* Math.swift */,
 				DE0B12A41ED1ED3C0055E943 /* Main.storyboard */,
 				DE0B12A71ED1ED3C0055E943 /* Assets.xcassets */,
 				DE0B12A91ED1ED3C0055E943 /* LaunchScreen.storyboard */,
 				DE0B12AC1ED1ED3C0055E943 /* Info.plist */,
+				DEFF660D1ED3CAAF0064BA49 /* Resource */,
 			);
 			path = "Pop Version 1.0";
+			sourceTree = "<group>";
+		};
+		DEFF660D1ED3CAAF0064BA49 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DEFF66101ED3CDBB0064BA49 /* Polygon-Apple-iPhone-7-Plus-Background.jpg */,
+				DEFF660E1ED3CAEB0064BA49 /* zing-mp3.jpg */,
+				DEFF66141ED3D1EB0064BA49 /* blackboard.png */,
+				DEFF66151ED3D1EB0064BA49 /* note.jpg */,
+				DEFF66161ED3D1EB0064BA49 /* 45614141-iphone-7-wallpaper.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +152,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFF660F1ED3CAEB0064BA49 /* zing-mp3.jpg in Resources */,
+				DEFF66191ED3D1EB0064BA49 /* 45614141-iphone-7-wallpaper.jpg in Resources */,
 				DE0B12AB1ED1ED3C0055E943 /* LaunchScreen.storyboard in Resources */,
+				DEFF66111ED3CDBB0064BA49 /* Polygon-Apple-iPhone-7-Plus-Background.jpg in Resources */,
 				DE0B12A81ED1ED3C0055E943 /* Assets.xcassets in Resources */,
+				DEFF66171ED3D1EB0064BA49 /* blackboard.png in Resources */,
 				DE0B12A61ED1ED3C0055E943 /* Main.storyboard in Resources */,
+				DEFF66181ED3D1EB0064BA49 /* note.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0B12B31ED1ED4D0055E943 /* Login.swift in Sources */,
 				DE0B12A31ED1ED3C0055E943 /* ViewController.swift in Sources */,
 				DE0B12A11ED1ED3C0055E943 /* AppDelegate.swift in Sources */,
+				DEFF66131ED3CFC70064BA49 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +335,7 @@
 				DE0B12B11ED1ED3C0055E943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
